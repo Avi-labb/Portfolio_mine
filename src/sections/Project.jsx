@@ -5,11 +5,27 @@ const Project = () => {
   const project = [
   {
     title: "Mistry e-commerce",
-    description: "It is creation",
-    image: "/",
-    tags: ["React.js", "Tailwind CSS", "Node.js", "MongoDB"],
-    link: "#",
-    github: "#"
+    description: "A modern e-commerce platform built for speed, security, and scalability. Designed to deliver a smooth shopping experience with advanced features and reliable performance.",
+    image: "excommerce.png",
+    tags: ["React.js", "Tailwind CSS", "Node.js", "MongoDB","Authentication","Authorization"],
+    link: "https://mistry-web.onrender.com/",
+    github: "https://github.com/Avi-labb/Mistry_ecommerce-_website/tree/main"
+  },
+  {
+    title: "Interview-AI",
+    description: "An AI-based tool designed to simulate real interviews and help users prepare effectively.",
+    image: "interview.png",
+    tags: ["React.js", "Tailwind CSS", "Node.js", "MongoDB","AI Studio"],
+    link: "https://interviewai-3-3yko.onrender.com/",
+    github: "https://github.com/Avi-labb/InterviewAI/tree/main"
+  },
+  {
+    title: "Portfolio",
+    description: "A responsive portfolio built to demonstrate my expertise in frontend and backend development.",
+    image: "portfolio.png",
+    tags: ["React.js", "Tailwind CSS","Animation tools"],
+    link: "https://avi-detail.onrender.com/",
+    github: "https://github.com/Avi-labb/Portfolio_two/tree/main"
   }
 ]
   return (
@@ -28,7 +44,8 @@ const Project = () => {
          </div>
          <div className='grid md:grid-cols-2 gap-8'>
             {project.map((project,idx)=>{
-               return <div key={idx} className='group glass rounded-2xl overflow-hidden md:row-span-1'
+               return <div key={idx}
+               className='group glass rounded-2xl overflow-hidden md:row-span-1'
                 style={{animationDelay:`${(idx+1)*100}ms`}}>
                 <div className='relative overflow-hidden aspect-video'>
                   <img 

@@ -62,12 +62,12 @@ export default function Services() {
 
                 <div className="flex flex-wrap justify-center gap-2">
                   {service.tech.map((item, i) => (
-                    <span
+                    <h1
                       key={i}
                       className="text-xs bg-primary/20 text-primary px-3 py-1 rounded-full"
                     >
                       {item}
-                    </span>
+                    </h1>
                   ))}
                 </div>
               </motion.div>

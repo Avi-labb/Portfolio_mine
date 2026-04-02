@@ -72,7 +72,7 @@ const Hero = () => {
 
               {[
                 { icon: Github, href: "https://github.com/Avi-labb" },
-                { icon: Linkedin, href: "#" },
+                { icon: Linkedin, href: "www.linkedin.com/in/avinash-kushwaha-0a6a193a9" },
                 { icon: Instagram, href: "https://www.instagram.com/avi_a_k" },
               ].map((social, idx) => {
                 return (
